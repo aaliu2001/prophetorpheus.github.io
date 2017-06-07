@@ -5,6 +5,11 @@ thatWasEasy.play();
 
 $("#easy").on("click", sayThatWasEasy);
 
+$(document).keypress(delegateKeyPress);
+function delegateKeyPress(event){
+    if(event.charCode==32{
+        var thatWasEasy=new Audio("that_was_easy.mp3");
+      
+    }
+}
 
-    
- 
